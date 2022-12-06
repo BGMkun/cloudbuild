@@ -20,8 +20,8 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/sdf8057/openwrt-mt2500.git
-  REPO_BRANCH: mt7981
+  REPO_URL: https://github.com/zheshifandian/openwrt-mt2500.git
+  REPO_BRANCH: lede-mt2500
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: ./config/gl_mt2500/gl_mt2500_lede.config
   DIY_P1_SH: ./custom/gl_mt2500/lede/diy-part1.sh
